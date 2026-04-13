@@ -51,15 +51,12 @@ oil-spill-prediction/
 ├── requirements.txt          # Dependencies
 ├── OilSpill_Detection.ipynb  # Training Notebook
 │
-├── oil_spill_dataset/        # Dataset
-├── oil_spill_augmented/      # Augmented Data
-│
 ├── eda_augmented.png
 ├── training_curves.png
 ├── metrics_chart.png
 ├── visualization_results.png
 ├── training_summary.txt
-└── oil-spill.zip
+└── .gitignore # Ignored files
 ```
 
 ---
