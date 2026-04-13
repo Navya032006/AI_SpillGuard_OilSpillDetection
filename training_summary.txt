@@ -1,0 +1,20 @@
+
+========================================
+OIL SPILL DETECTION - TRAINING SUMMARY
+========================================
+
+Model Architecture : U-Net (PyTorch)
+Input Shape        : (3, 256, 256)
+Total Epochs       : 25
+Optimizer          : Adam (lr=1e-4)
+Loss Function      : BCE + Dice Loss
+Batch Size         : 16
+
+--- BEST MODEL RESULTS ---
+Best Val Dice Coefficient : 0.9189
+Test Dice Coefficient     : 0.9058
+Test Loss                 : 0.2705
+
+--- FILES SAVED ---
+Model : /content/drive/MyDrive/Colab Notebooks/oil-spill-prediction/best_model.pth
+========================================
